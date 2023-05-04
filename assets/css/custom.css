@@ -1,0 +1,153 @@
+label.error {
+    position: relative;
+    display: block;
+    color: red !important;
+    font-size: 14px !important;
+}
+
+.input-label {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.req:after {
+    content: '*';
+    display: inline-block;
+    margin-left: 3px;
+    color: red;
+    font-size: 15px;
+    position: relative;
+    line-height: 15px;
+}
+
+.chosen-container-single .chosen-single {
+    border-radius: 4px;
+}
+
+
+.attachments[data-columns="1"] li, .files[data-columns="1"] li {
+    width: 100%;
+}
+
+.attachments[data-columns="2"] li, .files[data-columns="2"] li {
+    width: 50%;
+}
+
+.attachments[data-columns="3"] li, .files[data-columns="3"] li {
+    width: 33.33333333333333%;
+}
+
+.attachments[data-columns="4"] li, .files[data-columns="4"] li {
+    width: 25%;
+}
+
+.attachments[data-columns="5"] li, .files[data-columns="5"] li {
+    width: 20%;
+}
+
+.attachments[data-columns="6"] li, .files[data-columns="6"] li {
+    width: 16.66666666666667%;
+}
+
+.attachments[data-columns="7"] li, .files[data-columns="7"] li {
+    width: 14.28571428571429%;
+}
+
+.attachments[data-columns="8"] li, .files[data-columns="8"] li {
+    width: 12.5%;
+}
+
+.attachments[data-columns="9"] li, .files[data-columns="9"] li {
+    width: 11.11111111111111%;
+}
+
+.attachments[data-columns="10"] li, .files[data-columns="10"] li {
+    width: 10%;
+}
+
+.attachments[data-columns="11"] li, .files[data-columns="11"] li {
+    width: 9.090909090909091%;
+}
+
+.attachments[data-columns="12"] li, .files[data-columns="12"] li {
+    width: 8.333333333333333%;
+}
+
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 99999;
+    text-align: center;
+    display: none;
+}
+
+.loader .spinner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.chosen-container-single .chosen-single {
+    height: 38px;
+}
+
+.form-group i ~ .chosen-container-single .chosen-single {
+    padding-left: 32px;
+}
+
+.chosen-container-single .chosen-single span {
+    line-height: 36px;
+}
+
+.search-results, .listing-products {
+    overflow: revert;
+}
+
+.wp-btn {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #25d366;
+    padding: 5px;
+    z-index: 9999;
+}
+
+.wp-btn a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.comment .media img {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) and (min-width: 513px) {
+    .view-listing .infos .actions-block a.btn + .btn {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .listing-products .item .info .excerpt {
+        display: none;
+    }
+
+}
