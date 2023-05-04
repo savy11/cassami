@@ -34,7 +34,7 @@
  if (local) {
   define('domain_path', ds . 'cassami.com' . ds);
  } else {
-  define('domain_path', ds . 'demo' . ds);
+  define('domain_path', ds);
  }
  define('request_scheme', 'http' . (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ? 's' : '') . '://');
  define('app_url', request_scheme . domain . domain_path);
@@ -48,11 +48,5 @@
  define('tw_site', '');
 
  //Paystack
-
- // Live Keys
- //define('ps_secret_key', 'sk_live_a23a082f462f4b50d0c389ea68b5c60389ffcf96');
- //define('ps_public_key', 'pk_live_0f0fddef523cfb502dfc9587cbd2b6bd42ba80f8');
-
- // Test Keys
- define('ps_secret_key', 'sk_test_c5c6998decb3f04249459e7aaf4921c7ff56ed37');
- define('ps_public_key', 'pk_test_1f58bc677369e299cd9e39e1e7c3ed1ac785e004 ');
+ define('ps_secret_key', 'PAYSTACK_SECRET_KEY');
+ define('ps_public_key', 'PAYSTACK_PUBLIC_KEY ');
